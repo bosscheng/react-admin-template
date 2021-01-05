@@ -23,6 +23,9 @@ export default [
           }
         ]
       },
+      {
+        component: './errorPage/404'
+      }
     ]
   },
   {

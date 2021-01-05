@@ -61,6 +61,7 @@ const Login: React.FC<LoginProps> = (props) => {
           },
         }}
         onFinish={async (values) => {
+          console.log(values);
           handleSubmit(values);
         }}
       >
@@ -71,7 +72,7 @@ const Login: React.FC<LoginProps> = (props) => {
         )}
         <>
           <ProFormText
-            name="userName"
+            name="username"
             fieldProps={{
               size: 'large',
               prefix: <UserOutlined className={styles.prefixIcon}/>,

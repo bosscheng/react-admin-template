@@ -10,7 +10,7 @@ const proSettings: ProSettings = {
     fixedHeader: false,
     fixSiderbar: true,
     colorWeak: false,
-    title: 'template',
+    title: 'xxxxx',
     pwa: false,
     iconfontUrl: '',
 };
