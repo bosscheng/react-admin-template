@@ -20,6 +20,12 @@ export default [
             name: 'home',
             icon: 'smile',
             component: './Home',
+          },
+          {
+            path: '/test',
+            name: 'test',
+            icon: 'smile',
+            component: './Test',
           }
         ]
       },
