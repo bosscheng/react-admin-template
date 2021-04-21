@@ -12,7 +12,7 @@ import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
 import { ConnectState } from '@/models/connect';
 import { getMatchMenu } from '@umijs/route-utils';
-import logo from '../assets/md-logo.png';
+import logo from '../assets/react.png';
 import styles from './index.less';
 const noMatch = (
   <Result
